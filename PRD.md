@@ -10,7 +10,7 @@ The application requires **no external database** and is designed for static edg
 ## 2. Target Audience & Core Use Cases
 - **Industrial Quality Managers & Engineers**: Looking for certified on-site calibration services (Temperature Controllers, Sensors, RTD, Thermocouples, Signal Loops).
 - **Facility Operations Teams**: Needing Annual Maintenance Contracts (AMC) for routine equipment compliance and audit readiness.
-- **Service Requestors & Contacts**: Scanning QR codes or submitting digital inquiries via Gmail, Outlook, or WhatsApp.
+- **Service Requestors & Contacts**: Scanning QR codes or submitting digital inquiries via Gmail (`supportcalsevatec@gmail.com`) or WhatsApp.
 
 ---
 
@@ -19,16 +19,16 @@ The application requires **no external database** and is designed for static edg
 ### 3.1 Header / Navbar
 - **Brand Logo & Title**: CalSeva logo mark (`icon-512.png`) paired with clean Google Sans Flex typography.
 - **Navigation Links**:
-  - `Home` (`#hero`)
-  - `Services` (`#services`)
-  - `FAQ's` (`#faqs`)
-  - `Contact Us` (`#contact`)
+  - `Home` (`index.html#hero`)
+  - `Services` (`index.html#services`)
+  - `FAQ's` (`index.html#faqs`)
+  - `Contact Us` (`contact.html`)
 
 ### 3.2 Hero Section
 - **Headline**: *"Precision Calibration. On-Site Support. Reliable Service."* (`#607b7d`, 35px SemiBold).
 - **Sub-headline**: Describes on-site calibration advantages at customer facilities.
 - **Quote Tag**: *“Professional calibration support for businesses that depend on accurate measurement.”*
-- **Primary CTA Button**: *"Request a Service"* (`#3b4f51` background, pill-rounded `rounded-full`, with arrow vector).
+- **Primary CTA Button**: *"Request a Service"* (Redirects directly to `contact.html`).
 - **Visual Equipment Collage**: High-resolution imagery of industrial multimeters and calibration tools.
 
 ### 3.3 Our Calibration Services
@@ -50,7 +50,7 @@ The application requires **no external database** and is designed for static edg
 - **Mission Tag**: *“To become a trusted calibration support partner for businesses that depend on accurate measurement and reliable equipment.”*
 - **Visual Display**: Digital multimeter visual asset (`Gemini_Generated_Image_rynkgkrynkgkrynk 1.png`).
 
-### 3.6 Raise a Service Request & Contact Us (Figma Node 650:248)
+### 3.6 Raise a Service Request & Contact Us (Figma Node 650:248 - Standalone `contact.html`)
 - **Headline 1**: *"Raise a service request."* (`#4f6668`, 45px Medium).
 - **QR Code Container**:
   - Sub-label: `"Scan Qr code"`
@@ -59,10 +59,9 @@ The application requires **no external database** and is designed for static edg
 - **Calibration Illustration**: `Gemini_Generated_Image_96xcng96xcng96xc 1.png` showing CalSEVA machine calibration area.
 - **Headline 2**: *"Contact Us"* (`#4f6668`, 45px Medium).
 - **Contact Channel Buttons**:
-  - Gmail email trigger (`mailto:contact@calseva.com`)
-  - Outlook email trigger (`mailto:support@calseva.com`)
+  - Gmail official email trigger (`mailto:supportcalsevatec@gmail.com`)
   - WhatsApp chat trigger (`https://wa.me/...`)
 
 ### 3.7 Footer Section
 - **Background Color**: `#3b4f51` (CalSeva Deep Teal).
-- **Brand Details**: CalSeva overview, contact links, legal terms, and copyright.
+- **Brand Details**: CalSeva overview, contact email (`supportcalsevatec@gmail.com`), legal terms, and copyright.
