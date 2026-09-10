@@ -556,19 +556,22 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 88px;
-  height: 88px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background-color: #ffffff;
-  box-shadow: 0px 10px 28px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  overflow: hidden;
 }
 
 .contact-icon-btn:hover {
   transform: translateY(-6px) scale(1.08);
   box-shadow: 0px 16px 36px rgba(0, 0, 0, 0.18);
+  border-color: rgba(96, 123, 125, 0.3);
 }
 
 /* Site Footer */
@@ -633,119 +636,6 @@ body {
   font-weight: 400;
   opacity: 0.35;
   text-align: center;
-}
-
-/* Service Request Modal Dialogue */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  background-color: rgba(0, 0, 0, 0.68);
-  backdrop-filter: blur(8px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.modal-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal-box {
-  background-color: #ffffff;
-  border-radius: 32px;
-  width: 90%;
-  max-width: 620px;
-  padding: 44px;
-  position: relative;
-  box-shadow: 0px 28px 60px rgba(0, 0, 0, 0.3);
-  transform: translateY(28px);
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.modal-overlay.active .modal-box {
-  transform: translateY(0);
-}
-
-.modal-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  background: none;
-  border: none;
-  font-size: 32px;
-  cursor: pointer;
-  color: var(--calseva-muted-slate);
-  transition: color 0.2s ease;
-}
-
-.modal-close:hover {
-  color: var(--calseva-black);
-}
-
-.modal-title {
-  color: var(--calseva-deep-teal);
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.modal-sub {
-  color: var(--calseva-slate);
-  font-size: 16px;
-  margin-bottom: 30px;
-  line-height: 1.55;
-}
-
-.form-group {
-  margin-bottom: 22px;
-}
-
-.form-label {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--calseva-muted-slate);
-  margin-bottom: 8px;
-}
-
-.form-input, .form-textarea, .form-select {
-  width: 100%;
-  padding: 15px 20px;
-  border: 1.5px solid var(--calseva-border-slate);
-  border-radius: 16px;
-  font-family: var(--font-family);
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.form-input:focus, .form-textarea:focus, .form-select:focus {
-  border-color: var(--calseva-deep-teal);
-  box-shadow: 0 0 0 3px rgba(59, 79, 81, 0.15);
-}
-
-.form-submit {
-  width: 100%;
-  background-color: var(--calseva-deep-teal);
-  color: var(--calseva-white);
-  padding: 16px;
-  border-radius: 40px;
-  font-size: 19px;
-  font-weight: 500;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.25s ease, transform 0.2s ease;
-  margin-top: 14px;
-}
-
-.form-submit:hover {
-  background-color: #2e4042;
-  transform: translateY(-1px);
 }
 
 /* Responsive Breakpoints */
